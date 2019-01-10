@@ -1,0 +1,155 @@
+html,body {
+  margin: 0;
+  padding: 0;
+  background: #efefef;
+  color: #3e3e3e;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+
+.blend {
+  width: 1020px;
+  margin: 0 auto;
+}
+
+.blend-list {
+  display: -webkit-flex;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0;
+}
+
+.blend-item {
+  list-style: none;
+  width: 320px;
+  margin: 20px 10px;
+  background: #fff;
+  overflow: hidden;
+  border-radius: 5px;
+  /*box-shadow: 1px 1px 20px 0px #a5a5a5;*/
+  transition: box-shadow 0.4s ease-in-out;
+}
+
+.blend-item:hover {
+  box-shadow: 1px 1px 20px 0px #b8b8b8;
+}
+
+
+.thumb {
+  /*margin-bottom: 20px;*/
+  position: relative;
+}
+
+.filter {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #000000;
+}
+
+.filter.filter-default {
+  display: none;
+}
+.filter.filter-multiply {
+  mix-blend-mode: multiply;
+  background: #a9f5e0;
+}
+.filter.filter-screen {
+  mix-blend-mode: screen;
+  background: #a9f5e0;
+}
+.filter.filter-overlay {
+  mix-blend-mode: overlay;
+  background: #a9f5e0;
+}
+.filter.filter-darken {
+  mix-blend-mode: darken;
+  background: #a9f5e0;
+}
+.filter.filter-lighten {
+  mix-blend-mode: lighten;
+  background: #a9f5e0;
+}
+.filter.filter-color-dodge {
+  mix-blend-mode: color-dodge;
+  background: #a9f5e0;
+}
+.filter.filter-color-burn {
+  mix-blend-mode: color-burn;
+  background: #e8c6b3;
+}
+.filter.filter-hard-light {
+  mix-blend-mode: hard-light;
+  background: #a9f5e0;
+}
+.filter.filter-soft-light {
+  mix-blend-mode: soft-light;
+  background: #a9f5e0;
+}
+.filter.filter-difference {
+  mix-blend-mode: difference;
+  background: #a9f5e0;
+}
+.filter.filter-exclusion {
+  mix-blend-mode: exclusion;
+  background: #a9f5e0;
+}
+.filter.filter-hue {
+  mix-blend-mode: hue;
+  background: #a9f5e0;
+}
+.filter.filter-saturation {
+  mix-blend-mode: saturation;
+  background: #a9f5e0;
+}
+.filter.filter-color {
+  mix-blend-mode: color;
+  background: #a9f5e0;
+}
+.filter.filter-luminosity {
+  mix-blend-mode: luminosity;
+  background: #a9f5e0;
+}
+
+.info {
+  font-size: 12px;
+  margin: 1em;
+}
+
+.title {
+  font-size: 1em;
+  font-weight: normal;
+  margin: 0 0 0.5em;
+}
+
+.title-name {
+  font-weight: bold;
+}
+
+.color {
+  margin: 0.5em 0;
+}
+
+.color-sample {
+  display: none;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.color-sample.is-show {
+  display: inline-block;
+  margin: 0 2px;
+  position: relative;
+  top: 2px;
+}
+
+.color-code {
+  font-weight: bold;
+}
