@@ -35,6 +35,12 @@
     },
   };
   
+  var sayHello = {
+    init: function(){
+      console.log('hello');
+    }
+  };
+  
   // function initialized
   card.init();
 })();
