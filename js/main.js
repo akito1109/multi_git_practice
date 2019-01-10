@@ -35,6 +35,6 @@
     },
   };
   
-  // init
+  // initialized
   card.init();
 })();
