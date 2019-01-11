@@ -43,11 +43,7 @@
     
     getLang: function(){
       console.log('jp');
-    },
-    
-    setLang: function(){
-      console.log('set');
-    },
+    }
   };
   
   var loading = {
