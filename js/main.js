@@ -42,6 +42,13 @@
     },
   };
   
+  var loading = {
+    init: function(){
+      console.log('loaded !');
+    },
+  }
+  
   // function initialized
+  loading.init();
   card.init();
 })();
