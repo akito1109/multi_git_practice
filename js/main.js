@@ -50,12 +50,6 @@
     },
   };
   
-  var loading = {
-    init: function(){
-      console.log('loaded');
-    },
-  }
-  
   // function initialized
   card.init();
 })();
