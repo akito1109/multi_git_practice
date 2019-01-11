@@ -39,7 +39,11 @@
   var sayHello = {
     init: function(){
       console.log('hello');
-    }
+    },
+    
+    getGreeting: function(){
+      console.log('hi');
+    },
   };
   
   // function initialized
