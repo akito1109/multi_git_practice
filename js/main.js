@@ -40,6 +40,10 @@
     init: function(){
       console.log('hello');
     },
+    
+    getLang: function(){
+      console.log('jp');
+    }
   };
   
   var loading = {
