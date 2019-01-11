@@ -35,6 +35,7 @@
     },
   };
   
+  // sayhello func
   var sayHello = {
     init: function(){
       console.log('hello');
