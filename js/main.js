@@ -46,6 +46,10 @@
     init: function(){
       console.log('loaded !');
     },
+    
+    completed: function(){
+      console.log('completed !');
+    }
   }
   
   // function initialized
