@@ -40,14 +40,6 @@
     init: function(){
       console.log('hello');
     },
-    
-    getGreeting: function(){
-      console.log('hi');
-    },
-    
-    setGreeting: function(){
-      console.log('hello');
-    },
   };
   
   var loading = {
