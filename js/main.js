@@ -44,6 +44,10 @@
     getGreeting: function(){
       console.log('hi');
     },
+    
+    setGreeting: function(){
+      console.log('hello');
+    },
   };
   
   // function initialized
